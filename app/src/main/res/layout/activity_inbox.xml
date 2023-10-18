@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_inbox"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="thegenuinegourav.voicemail.Inbox">
+
+    <TextView
+        android:text="From"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="65dp"
+        android:id="@+id/from"
+        android:layout_width="300dp"
+        android:textSize="25sp" />
+
+    <TextView
+        android:text="Date"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="37dp"
+        android:id="@+id/date"
+        android:layout_below="@+id/from"
+        android:layout_alignStart="@+id/from"
+        android:textSize="25sp" />
+
+    <TextView
+        android:text="Body"
+        android:layout_width="300dp"
+        android:layout_below="@+id/sub"
+        android:layout_alignStart="@+id/date"
+        android:layout_marginTop="25dp"
+        android:id="@+id/body"
+        android:layout_height="150dp"
+        android:textSize="25sp" />
+
+    <TextView
+        android:text="Subject"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/sub"
+        android:textSize="25sp"
+        android:layout_below="@+id/date"
+        android:layout_alignStart="@+id/date"
+        android:layout_marginTop="24dp" />
+</RelativeLayout>

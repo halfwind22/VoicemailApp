@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="thegenuinegourav.voicemail">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity
+            android:name=".Firstpage"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Register"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Config"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Inbox"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Options"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Inbox1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Sent"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Trash"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Trash1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Imp"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Imp1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Search"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Search1"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Delete" />
+        <activity android:name=".Restore"></activity>
+    </application>
+
+</manifest>

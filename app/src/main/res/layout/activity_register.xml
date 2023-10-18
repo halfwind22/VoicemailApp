@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#faa519"
+    android:orientation="vertical"
+    android:onClick = "layoutClicked"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:weightSum="1">
+
+    <LinearLayout android:layout_width="352dp"
+        android:layout_height="351dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="30dp"
+        android:orientation="vertical"
+        android:background="@drawable/graybackground"
+        android:layout_weight="0.94"
+        android:weightSum="1">
+
+        <TextView
+            android:text="User_Name"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/txtname"
+            android:textColor="#4C4D4F"
+            android:textSize="24sp"
+            android:layout_weight="0.06" />
+
+        <TextView
+            android:text="Date of Birth"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/txtdob"
+            android:textColor="#4C4D4F"
+            android:textSize="24sp"
+            android:layout_weight="0.06" />
+
+
+        <TextView
+            android:text="Phone Number"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/txtphno"
+            android:layout_weight="0.06"
+            android:textColor="#4C4D4F"
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="Secret Code"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/sc1"
+            android:textColor="#4C4D4F"
+            android:textSize="24sp"
+            android:layout_weight="0.06" />
+
+        <TextView
+            android:text="Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtpass"
+            android:layout_weight="0.06"
+            android:textColor="#4C4D4F"
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="Confirm Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cpass"
+            android:layout_weight="0.06"
+            android:textColor="#4C4D4F"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="#e8e8e7"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true">
+
+    </RelativeLayout>
+
+
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+
+</LinearLayout>

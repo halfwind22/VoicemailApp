@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#faa519"
+    android:orientation="vertical"
+    android:onClick = "layoutClicked"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:weightSum="1">
+
+    <LinearLayout android:layout_width="352dp"
+        android:layout_height="351dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="30dp"
+        android:orientation="vertical"
+        android:background="@drawable/graybackground"
+        android:layout_weight="1.03"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:inputType="textPersonName"
+            android:text="   Voice based Email"
+            android:ems="10"
+            android:id="@+id/editText"
+            android:textColor="#4C4D4F"
+            android:textSize="34sp"
+            android:textStyle="normal|bold"
+            android:layout_height="76dp"
+            android:layout_weight="0.01" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:inputType="textPersonName"
+            android:text="                 for"
+            android:ems="10"
+            android:id="@+id/editText2"
+            android:textSize="34sp"
+            android:textColor="#4C4D4F"
+            android:textStyle="normal|bold"
+            android:layout_height="75dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:inputType="textPersonName"
+            android:text="    Visually Impaired"
+            android:ems="10"
+            android:id="@+id/editText3"
+            android:textSize="34sp"
+            android:textColor="#4C4D4F"
+            android:layout_weight="0.18"
+            android:textStyle="normal|bold"
+            android:layout_height="75dp" />
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="#e8e8e7"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true">
+
+    </RelativeLayout>
+
+
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
